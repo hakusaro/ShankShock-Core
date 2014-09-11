@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: lib/mysqlcon.jar lib/lettuce-2.1.0.jar lib/netty-3.3.0.Fin
+ al.jar lib/gson-2.1.jar lib/Pushover.jar
+

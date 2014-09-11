@@ -1,0 +1,9 @@
+username: staging
+password: SujeQGNQJZXxWY2V
+jdbcurl: jdbc:mysql://direct.shankshock.com/staging
+debug: false
+redishost: direct.shankshock.com
+redispass: asdf
+redisport: 6379
+serverid: Dev
+uniqueid: 1

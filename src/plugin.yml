@@ -1,0 +1,127 @@
+name: ShankShockCore
+main: com.shankshock.nicatronTg.Registration.Registration
+version: 1.0.0
+commands:
+    ban:
+      description: Fries toast.
+      usage: /<command>
+    donate:
+      description: Displays donator information.
+      usage: /<command>
+    ovban:
+      description: Override ban
+      usage: /<command>
+    unban:
+      description: Unbans a player
+      usage: /<command>
+    reloadpermissions:
+      description: Reloads permissions
+      usage: /reloadpermissions
+    news:
+      description: Alias for /moj
+      usage: /news
+    reloadsettings:
+      description: Reloads the dynamic server configuration from the database.
+      usage: /reloadsettings
+    restart:
+      description: Restarts the server
+      usage: /restart
+    ar:
+      description: Edits autorun commands
+      usage: /ar
+    daytime:
+      description: Makes it day time
+      usage: /daytime
+    stability-check:
+      description: Checks stability of server
+      usage: /stability-check
+    codeme:
+      description: Generates a tempauth code.
+      usage: /codeme
+    name:
+      description: Who is that?
+      usage: /name
+    bl:
+      description: The blacklist engine.
+      usage: /bl
+    kick:
+      description: Removes unwanted players.
+      usage: /kick
+    zm:
+      description: Enables zone stuff
+      usage: /zm
+    pure:
+      description: Pure related commands
+      usage: /pure
+    shop:
+      description: Shop!
+      usage: /shop
+    store:
+      description: Store!
+      usage: /store
+    silverc:
+      description: Makes silver!
+      usage: /silverc [amount]
+    inventory:
+      description: Inventory!
+      usage: /inventory
+    sudo:
+      description: A superuser!
+      usage: /sudo
+    begin:
+      description: Welcome to ShankShock.
+      usage: /begin
+    gwho:
+      description: Global who list
+      usage: /gwho
+    gflag:
+      description: Sets a global flag.
+      usage: /gflag
+    wflag:
+      description: Sets a world flag.
+      usage: /wflag
+    whoami:
+      description: Shows info about you.
+      usage: /me
+    changelog:
+      description: Updates the server changelog
+      usage: /changelog [number] [link]
+    reloadads:
+      description: Reloads the advertisement system.
+      usage: /reloadads
+    sva:
+      description: Awards SV related titles.
+      usage: /sva [player] [title]
+    antiangrywolf:
+      description: Dunno if it works
+      usage: /antiangrywolf
+    changename:
+      description: Changes your nickname to a new one.
+      usage: /nickname [name]
+    rules:
+      description: Gives you a rulebook.
+      usage: /rules
+    calladmin:
+      description: Delivers a message to an admin.
+      usage: /calladmin [message]
+    silvertop25:
+      description: The top 25 silver players.
+      usage: /silvertop25
+    creative:
+      description: Teleports into and out of the creative map.
+      usage: /svcreative
+    jail:
+      description: Jails a player.
+      usage: /jail [silent=true/false] playername
+    release:
+      description: Releases a player from jail.
+      usage: /release playerName
+    afterdark:
+      description: Gives a player the ShankShock After Dark award.
+      usage: /afterdark playerName
+    resetspleef:
+      description: Sets a location for a reset button to reset a spleef zone according to a given typeid.
+      usage: /spleefreset [zone] [type]
+depend:
+ - WorldEdit
+ - SuperPick
